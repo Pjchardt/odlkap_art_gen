@@ -20,6 +20,7 @@ class Main(object):
 
     def start(self):
         self.run()
+        #self.test_data_gen()
 
     def run(self):
         self.run_loop = True
@@ -36,6 +37,11 @@ class Main(object):
                 time.sleep(10)
             else:
                 time.sleep(1)
+
+    def test_data_gen(self):
+        while True:
+            print(self.art_data.generate_art_data())
+            time.sleep(1)
 
     def get_style(self):
         dirs = [d for d in listdir(STYLEPATH) if isdir(join(STYLEPATH, d))]
