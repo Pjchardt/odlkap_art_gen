@@ -1,0 +1,8 @@
+beautifulsoup4==4.8.0
+lxml==4.4.1
+opencv-python==4.1.1.26
+pandas==0.25.1
+pymitter==0.2.3
+Pyrebase4==4.3.0
+tensorflow-gpu==1.14.0
+
